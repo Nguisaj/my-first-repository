@@ -1,38 +1,48 @@
 #centered-text {
-    text-align: center;
-    font-size:medium;
-    color: black;
+  text-align: center;
+  font-size: medium;
+  color: black;
 }
+
 #Align {
-text-align: left;
-font-size:14px;
-margin: 0; padding: 0;
-font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#container { 
- margin: 0 auto;
- text-align: center;
+
+#container {
+  margin: 0 auto;
+  text-align: center;
 }
+
 body {
-   background-color: #efeee7; font-family: Georgia, 'Times New Roman', Times, serif, color #333333;margin: 0;padding: 0; width: 70%;
-  }
-  
-  h1 {
-    color: #eee;
-    font-size: 28px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  h2 {
-    font-size: 24px;
-    width: 30%;
-  }
-  
-  img {
-    float: left;
-    margin: 20px;
+  background-color: #efeee7;
+  font-family: Georgia, 'Times New Roman', Times, serif, color #333333;
+  margin: 0;
+  padding: 0;
+  width: 70%;
 }
-a:link, a:visited {
+
+h1 {
+  color: #eee;
+  font-size: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-size: 24px;
+  width: 30%;
+}
+
+img {
+  float: left;
+  margin: 20px;
+}
+
+a:link,
+a:visited {
   color: #d21034;
   padding: 15px 25px;
   text-align: center;
@@ -40,6 +50,7 @@ a:link, a:visited {
   text-underline-position: below;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   background-color: black;
 }
