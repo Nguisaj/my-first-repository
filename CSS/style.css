@@ -4,6 +4,12 @@
   color: black;
 }
 
+p {
+  margin: 35px;
+}
+
+p class="mix"
+
 #Align {
   text-align: left;
   font-size: 14px;
@@ -19,26 +25,89 @@
 
 body {
   background-color: #efeee7;
+  
+  background-repeat: no-repeat;
   font-family: Georgia, 'Times New Roman', Times, serif, color #333333;
   margin: 0;
   padding: 0;
-  width: 70%;
+  width: 100%;
+}
+
+body {
+  background-image: url(background\ image\ 2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+ 
+  background-size: cover;
+  width: 1250px;
+  height: 925px;
+  border: 3px solid;
+  
+}
+ @media screen and (max-width: 480px) {
+}
+ @media screen and (max-width: 768x) {
+} 
+ @media screen and (max-width: 980px) {
+} 
+ @media  screen and (max-width: 1200px) {
+}
+
+ 
+.flex-container {
+  display: flexbox;
+  background-color: #333333;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px; 
+}
+
+.flex-container > div {
+  background-color: #eee;
 }
 
 h1 {
   color: #eee;
   font-size: 28px;
+  align-content: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
-  font-size: 24px;
-  width: 30%;
+  color: #eee;
+  font-size: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color:#333333; 
+
+}
+
+h3 {
+  color: #eee;
+  font-size: 28px;
+  background-color:#333333; align-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif 
+}
+
+h4 {
+  color: #eee;
+  font-size: 28px;
+  background-color:#333333; align-content:center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4 {
+  <p class="mix"</p>
 }
 
 img {
   float: left;
-  margin: 20px;
+  margin: 0px;
+  border: 20px solid blue;
+  padding: 20px;
+  border-image-repeat: stretch;  
+  border-image-slice: 30;
+  
 }
 
 a:link,
@@ -52,5 +121,5 @@ a:visited {
 
 a:hover,
 a:active {
-  background-color: black;
+  background-color: black; 
 }
