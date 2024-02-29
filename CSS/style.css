@@ -8,8 +8,6 @@ p {
   margin: 35px;
 }
 
-p class="mix"
-
 #Align {
   text-align: left;
   font-size: 14px;
@@ -33,6 +31,7 @@ body {
   width: 100%;
 }
 
+
 body {
   background-image: url(background\ image\ 2.jpg);
   background-repeat: no-repeat;
@@ -41,8 +40,8 @@ body {
  
   background-size: cover;
   width: 1250px;
-  height: 925px;
-  border: 3px solid;
+  height: 900px;
+  border: 40px solid;
   
 }
  @media screen and (max-width: 480px) {
